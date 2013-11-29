@@ -1,0 +1,109 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* -------------------------------------- */
+
+body {
+    background-color: #6996a7;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#container {
+    width: 1000px;
+    min-width: 1000px;
+    margin: 10px auto 0;
+    background-color: white;
+}
+
+/* Title */
+
+h1 {
+    font-weight: bold;
+    font-size: 36pt;
+    color: #00008e;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 18pt;
+    color: #000071;
+}
+
+/* Navigation */
+
+nav {
+    background-color: #325884; /* too dark */
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    width: 200px;
+    padding: 3px 0;
+    text-align: center;
+}
+
+/* Main */
+
+/**/
+
+/* Footer */
+
+footer {
+    padding: 5px 0;
+    font-size: small;
+    text-align: center;
+}
