@@ -1,0 +1,370 @@
+﻿
+
+.BG_Null
+{
+}
+.BG_Base
+{
+	background-color:#6699CC;
+}
+.BG_VeryLight
+{
+	background-color:#ffffff;
+}
+.BG_Light
+{
+	background-color:#ffffff;
+}
+.BG_Mid
+{
+	background-color:#003366;
+}
+.BG_Dark
+{
+	background-color:#00008e;
+}
+.BG_VeryDark
+{
+	background-color:#000000;
+}
+
+
+
+.F_VeryLight
+{
+	color:#ffffff;
+}
+.F_Light
+{
+	color:#ffffff;
+}
+.F_Mid
+{
+	color:#003366;
+}
+.F_Dark
+{
+	color:#00008e;
+}
+.F_VeryDark
+{
+	color:#000000;
+}
+   
+
+body
+{
+	text-align:Center;
+	background-color:#6996a7;
+  
+	font-family:Verdana, Arial, Geneva, sans-serif;
+	font-size:10pt;
+	color:#000000;
+}
+
+
+
+
+.MS_MasterFrame
+{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+td, th
+{
+  font-family:Verdana, Arial, Geneva, sans-serif;
+  font-size:10pt;
+}
+
+
+.MS_MasterFrame
+{
+	width:980px;
+}
+   
+.MSC_SiteWidth,.MS_MasterHeader,.MS_MasterGlobalLinks,.MS_MasterPrimaryNav,.MS_MasterFooter,.MS_MasterTopAD,.MS_MasterBottomAD
+{
+	width:100%;
+}
+
+
+
+.MSC_HeaderFrame
+{
+	background:#00008e;
+	width:100%;
+}
+
+.MSC_HeaderDescription
+{
+	font-size:12px;
+	margin:0px;
+}
+	
+
+
+.MSC_GlobalLinkSpace
+{
+	padding:10px;
+	font-size:10pt;
+	color:#ffffff;
+}
+.MSC_GlobalLink
+{
+	font-size:10pt;
+	color:#ffffff;
+	text-decoration:none;
+	font-weight:bold;
+}
+.MSC_GlobalLink:hover
+{
+	font-size:10pt;
+	color:#ffffff;
+	text-decoration:underline;
+	font-weight:bold;
+}
+.MSC_GlobalLink:visited
+{
+	font-size:10pt;
+	color:#ffffff;
+	text-decoration:none;
+	font-weight:bold;
+}
+.MSC_GlobalLinkSpace
+{
+	font-size:10pt;
+}
+
+
+	
+.MSC_PrimaryNavFrame
+{
+	background:#325884;
+	width:100%;
+	margin:0;
+	text-align:left;
+}
+.MSC_PrimaryNavLink
+{
+	color:#ffffff;
+	font-size:12px;
+	text-decoration:none;
+}
+.MSC_PrimaryNavLink:hover
+{
+	color:#ffffff;
+	font-size:12px;
+}
+.MSC_PrimaryNavLink:visited
+{
+	color:#ffffff;
+	font-size:12px;
+	text-decoration:none;
+}
+.MSC_PrimaryNavLinkFrame-On
+{
+	background:#E3FAE7;
+	white-space:nowrap;
+	padding:5px 10px 5px 10px;
+}
+.MSC_PrimaryNavLink-On
+{
+	color:#c41200;
+	font-size:12px;
+	text-decoration:none;
+	font-weight:bold;
+}
+.MSC_PrimaryNavLink-On:hover
+{
+	color:#c41200;
+	font-size:12px;
+	font-weight:bold;
+}
+.MSC_PrimaryNavLink-On:visited
+{
+	color:#c41200;
+	font-size:12px;
+	text-decoration:none;
+	font-weight:bold;
+}
+.MSC_PrimaryNavLeftSpace
+{
+	width:1px;
+	white-space:nowrap;
+	background:#000000;
+	font-size:1px;
+}
+.MSC_PrimaryNavRightSpace
+{
+	width:1px;
+	background:#00008e;
+	white-space:nowrap;
+	font-size:1px;
+}
+.MSC_PrimaryNavTopSpace
+{
+	height:1px;
+	background:#000000;
+}
+.MSC_PrimaryNavBottomSpace
+{
+	height:1px;
+	background:#00008e;
+}
+
+
+
+.MS_MasterLeftNav
+{
+	background:#00008e;
+}
+.MSC_SecondaryNavFrame
+{
+	background:#E3FAE7;
+	width:100%;
+	text-align:left;
+}
+.MSC_SecondaryNavLink
+{
+	color:#c41200;
+	font-size:10pt;
+	text-decoration:none;
+}
+.MSC_SecondaryNavLink:hover
+{
+	color:#c41200;
+	font-size:10pt;
+}
+.MSC_SecondaryNavLink:visited
+{
+	color:#c41200;
+	font-size:10pt;
+	text-decoration:none;
+}
+.MSC_SecondaryNavLeftSpace
+{
+	font-size:1px;
+	background:#325884;
+	width:1px;
+	white-space:nowrap;
+}
+.MSC_SecondaryNavRightSpace
+{
+	font-size:1px;
+	background:#ffffff;
+	width:1px;
+	white-space:nowrap;
+}
+.MSC_SecondaryNavTopSpace
+{
+	background:#325884;
+	height:1px;
+}
+.MSC_SecondaryNavBottomSpace
+{
+	background:#ffffff;
+	height:1px;
+}
+.MSC_SecondaryNavLeftFrame-On
+{
+	padding:5px;
+	background:#ffffff;
+}
+.MSC_SecondaryNavLinkFrame-On
+{
+	white-space:nowrap;
+	padding:5px;
+	background:#ffffff;
+}
+.MSC_SecondaryNavLink-On
+{
+	padding:5px;
+	font-size:10pt;
+	font-weight:bold;
+	color:#c41200;
+	text-decoration:none;
+}
+.MSC_SecondaryNavLink-On:hover
+{
+	padding:5px;
+	font-size:10pt;
+	font-weight:bold;
+	color:#c41200;
+}
+.MSC_SecondaryNavLink-On:visited
+{
+	padding:5px;
+	font-size:10pt;
+	font-weight:bold;
+	color:#c41200;
+	text-decoration:none;
+}
+   
+
+
+.MS_MasterBody
+{
+	background:#ffffff;
+}
+.MSC_Body
+{
+	padding:10px;
+	text-align:left;
+	background:#ffffff;
+	height:100%;
+}
+	
+
+
+.MSC_FooterFrame
+{
+	background:#37c4da;
+	padding:5px;
+	text-align:center;
+}
+.MSC_FooterLink
+{
+	color:#ffffff;
+	font-size:10pt;
+	text-decoration:none;
+}
+.MSC_FooterLink:hover
+{
+	color:#ffffff;
+	font-size:10pt;
+	text-decoration:underline;
+}
+.MSC_FooterLink:visited
+{
+	color:#ffffff;
+	font-size:10pt;
+	text-decoration:none;
+}
+.MSC_FooterLinkSpacer
+{
+	color:#ffffff;
+	font-size:10pt;
+}
+.MSC_FooterText
+{
+	color:#ffffff;
+	font-size:10pt;
+}
+
+
+
+.MSC_CollectDataTable,.MSC_CollectDataTable
+{
+	font-size:10pt;
+}
+
+
+    
+.MSC_ECBorder
+{
+  border-color:  #003366;
+}
+
+  
