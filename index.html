@@ -7,6 +7,8 @@
         <meta name="description" content="We are professionals in maintaining your property and grounds.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <script src="http://malsup.github.com/jquery.cycle2.js"></script>
     </head>
     <body>
         <div id="container">
@@ -29,7 +31,11 @@
             <main>
                 <div class="content" id="home-content">
                     <div>
-                        <img src="images/large-van.jpg" id="large-van">
+                        <div class="cycle-slideshow" id="home-slideshow">
+                            <img src="images/large-van.jpg">
+                            <img src="images/small-van.jpg">
+                            <img src="images/audi-sunderland.jpg">
+                        </div>
                         <p>We are professionals in maintaining your property and grounds based in the North East, and we are happy to undertake work throughout the whole of the UK.</p>
                         <p>We offer a wide range of services from full <a href="refurbishment.html">Property Refurbishment</a> to <a href="cleaning.html">Deep Cleaning</a> for all of your maintenance needs, don't hesitate to <a href="contact.html">Contact Us</a> for a quote.</p>
                         <p>We pride ourselves on our quality of service and craftsmanship combined with our personal approach.</p>
@@ -48,20 +54,50 @@
                     <p>Deep cleaning</p>
                 </div>
                 <div class="content" id="testimony-content">
-                    <p>Client testimony</p>
+                    <!-- TODO Add Logos -->
+                    <p>We have maintained excellent relationships with our past clients, below you will find some of the feedback we have received.</p>
+                    <h3>Dukes Court</h3>
+                    <blockquote>
+                        <p>Finally I hope the more observant ones amongst you have noticed the good work completed by Asbury Services. [Asbury Services] have been onsite for almost 2 weeks and have tolied hard to deep clean all our areas in order to bring the building back to its former glory. I hope you agree with me that it looks far better.</p>
+                        <cite>Summer 2010 Newsletter</cite>
+                    </blockquote>
+                    <h3>Europa</h3>
+                    <blockquote>
+                        <p>Asbury Services has carried out various services/repairs for the East Quayside Management Company and there have never been any complaints. Each job is carried out to a very high standard and the workforce are very amicable and friendly.</p>
+                        <p>Competitive prices too.</p>
+                        <cite>Helen McGuinness, Site Secretary</cite>
+                    </blockquote>
+                    <h3>Ward Hadaway</h3>
+                    <blockquote>
+                        <p>We used Asbury to help carry out an extensive refurbishment of our offices on Newcastle's Quayside. I found the company helpful, thoroughly professional and very good value for money and would not hesitate to recommend their services.</p>
+                        <cite>Norma Tullock, Facilities Manager</cite>
+                    </blockquote>
+                    <h3></h3>
+                    <!--
+                    <blockquote>
+                        <p></p>
+                        <cite></cite>
+                    </blockquote>
+                    <h3></h3>
+                    <blockquote>
+                        <p></p>
+                        <cite></cite>
+                    </blockquote>
+                    -->
                 </div>
                 <div class="content" id="contact-content">
                     <div id="map">
-                        <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.uk/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Asbury+Services,+Warenmill+Close,+Newcastle+upon+Tyne&amp;aq=0&amp;oq=asbury+&amp;sll=54.982262,-1.725749&amp;sspn=0.002281,0.006539&amp;ie=UTF8&amp;hq=&amp;hnear=&amp;t=m&amp;ll=54.982096,-1.726012&amp;spn=0.00431,0.00912&amp;z=16&amp;output=embed"></iframe><br /><small><a href="https://maps.google.co.uk/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Asbury+Services,+Warenmill+Close,+Newcastle+upon+Tyne&amp;aq=0&amp;oq=asbury+&amp;sll=54.982262,-1.725749&amp;sspn=0.002281,0.006539&amp;ie=UTF8&amp;hq=&amp;hnear=&amp;t=m&amp;ll=54.982096,-1.726012&amp;spn=0.00431,0.00912&amp;z=16" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+                        <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.uk/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Asbury+Services,+Warenmill+Close,+Newcastle+upon+Tyne&amp;aq=0&amp;oq=asbury+&amp;sll=54.982262,-1.725749&amp;sspn=0.002281,0.006539&amp;ie=UTF8&amp;hq=&amp;hnear=&amp;t=m&amp;ll=54.982096,-1.726012&amp;spn=0.00431,0.00912&amp;z=16&amp;output=embed"></iframe><br>
+                        <small><a href="https://maps.google.co.uk/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Asbury+Services,+Warenmill+Close,+Newcastle+upon+Tyne&amp;aq=0&amp;oq=asbury+&amp;sll=54.982262,-1.725749&amp;sspn=0.002281,0.006539&amp;ie=UTF8&amp;hq=&amp;hnear=&amp;t=m&amp;ll=54.982096,-1.726012&amp;spn=0.00431,0.00912&amp;z=16">View Larger Map</a></small>
                     </div>
-                    <p>Please don't hestitate to contact us in any of the ways listed below.</p>
+                    <p>Please don't hestitate to contact us in any of the following ways.</p>
                     <h3>Telephone</h3>
                     <p><a class="tel" href="tel:+441912670431">0191 267 0431</a></p>
                     <h3>Mobile</h3>
                     <p><a class="tel" href="tel:+447970025637">07970 025 637</a></p>
                     <h3>Email</h3>
                     <p><a href="mailto:asbury.services@gmail.com">asbury.services@gmail.com</a></p>
-                    <h3>Address:</h3>
+                    <h3>Address</h3>
                     <div>
                         <span>Head Office</span><br>
                         <span>4 Warenmill Close,</span><br>
@@ -72,7 +108,7 @@
                 </div>
             </main>
             <footer>
-                <p>&copy; 2013</p>
+                <p>&copy; 2014</p>
             </footer>
         </div>
     </body>
