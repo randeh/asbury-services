@@ -76,7 +76,7 @@ header {
 h1 {
     font-weight: bold;
     font-size: 36pt;
-    line-height: 36pt;
+    line-height: 38pt;
     color: #00008e;
 }
 
@@ -85,6 +85,12 @@ h2 {
     font-size: 18pt;
     line-height: 25pt;
     color: #000071;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 16pt;
+    line-height: 18pt;
 }
 
 /* Navigation */
@@ -112,7 +118,39 @@ nav a {
 
 main {
     clear: left;
-    padding: 10px;
+    padding: 20px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+main a {
+    color: #000071;
+    font-weight: bold;
+}
+
+.tel {
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+#large-van {
+    float: right;
+    margin-left: 15px;
+}
+
+#logos {
+    clear: both;
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+#map {
+    float: right;
+    margin-left: 15px;
 }
 
 /* Footer */
@@ -121,4 +159,12 @@ footer {
     padding: 5px 0;
     font-size: small;
     text-align: center;
+}
+
+/*TEMP*/
+.content:not(#contact-content) {
+    display: none;
+}
+#contact-content {
+    min-height: 375px;
 }
