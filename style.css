@@ -153,8 +153,35 @@ main a {
     margin-left: 15px;
 }
 
+#safety {
+    float: right;
+    width: 275px;
+    margin-left: 20px;
+    padding: 10px;
+    background-color: #ebd975;
+    outline: 1px dashed gray;
+}
+
+#safety h3 {
+    text-align: center;
+}
+
+#safety p {
+    margin-top: 10px;
+}
+
+#cleaning-slideshow {
+    width: 640px;
+    height: 480px;
+    margin: 20px auto;
+}
+
 small {
     font-size: 12pt;
+}
+
+#contact-content {
+    min-height: 375px;
 }
 
 /* Footer */
@@ -202,11 +229,3 @@ blockquote cite:before {
 }
 
 /* -------------------------------------------- */
-
-/*TEMP*/
-.content:not(#testimony-content) {
-    display: none;
-}
-#contact-content {
-    min-height: 375px;
-}
