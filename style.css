@@ -184,6 +184,21 @@ small {
     min-height: 375px;
 }
 
+.testimony-title {
+    margin-top: 20px;
+}
+
+#environment {
+    float: left;
+    margin-right: 15px;
+}
+
+#refurbishment-slideshow {
+    width: 640px;
+    height: 480px;
+    margin: 20px auto;
+}
+
 /* Footer */
 
 footer {
