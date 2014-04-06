@@ -1,6 +1,0 @@
-Thank you for your enquiry a member of the team will contact you shortly
-
-Name: <<txtname>>
-Telephone: <<txttel>>
-Email: <<txtemail>>
-Enquiry: <<txtenquiry>>
